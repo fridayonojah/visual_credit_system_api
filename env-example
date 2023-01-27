@@ -1,0 +1,24 @@
+NODE_ENV 
+
+# DB Configurations
+DB_HOST 
+DB_USER 
+DB_PASSWORD 
+DB_DATABASE
+
+# local runtime configs
+PORT=3306
+
+# local runtime jwt token configs
+ACCESS_TOKEN_SECRET 
+ACCESS_TOKEN_LIFE 
+REFRESH_TOKEN_SECRET 
+REFRESH_TOKEN_LIFE 
+TOKEN_ISSUER
+
+# local runtime mail configs
+MAIL_SENDER_EMAIL 
+MAIL_SENDER_NAME 
+
+# paystack secret
+PAYSTACK_SECRETE_KEY 
