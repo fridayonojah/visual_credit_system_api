@@ -1,26 +1,32 @@
 # Demo credit API using Node, Express, Mysql, And Knex.js
-This is a credit system wallet api built with node.js. It enables an account holder transfer cash wallet to wallet, withdraw, transfer, and fund wallet.
+This is a credit system wallet API built with node.js. It enables an account holder to transfer cash wallet to wallet, withdraw, transfer, and fund wallet.
  
 
 ## Application setup
 
 ### Coppy .env-example and create your own .env file
-```cp .env-example .env```
+```
+cp .env-example .env
+```
 
 ### Edit the .env file and add your MySQL username, MySQL password, and DB name
 
 - Create two MySQL databases one for test and the other for development and assign the values of the connection strings to `DB_DATABASE` and `DB_TEST_DATABASE`= respectively.
 
 ### Install dependencies
-npm install
+```
+js npm install
+```
 
 ### Run the server locally
+```
 npm start
+```
 
 ### Run the server locally in dev mode
+```
 npm run dev
-
-
+```
 
 ## Code Example Users
 create an account
